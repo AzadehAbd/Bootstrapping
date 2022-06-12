@@ -5,6 +5,7 @@ Created on Sun Jun 12 17:43:27 2022
 @author: azade
 """
 
+
 import numpy as np
 import pandas as pd
 import statistics
@@ -54,3 +55,5 @@ print(np.quantile(testbootsrap, 0.025))
 print(np.quantile(testbootsrap, 0.975))
 print(np.min(testbootsrap))
 print(np.max(testbootsrap))
+
+
